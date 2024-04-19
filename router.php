@@ -3,7 +3,8 @@
 $uri = parse_url($_SERVER['REQUEST_URI'])['path'];
 
 $routes = [
-  '/' => 'controllers/index.php'
+    '/blog.me/' => 'controllers/index.php',
+    '/blog.me/about'=> 'controllers/about.php'
 ];
 
 function routeToController($uri, $routes)
@@ -20,6 +21,8 @@ function  abort($code =404)
     http_response_code($code);
 
     require "views/{$code}.php";
+
+    die();
 }
 
 routeToController($uri, $routes);
