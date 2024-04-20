@@ -10,7 +10,7 @@
 <body>
 <h1>Page Not Found!</h1>
 <p>
-    <a href="/">go back home</a>
+    <a href="/blog.me/">go back home</a>
 </p>
 </body>
 </html>

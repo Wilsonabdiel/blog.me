@@ -6,6 +6,6 @@ return [
     'port'=>"3306",
     'dbname'=>"blog.me"
 
-    ]
-
+    ],
+    //
 ];
