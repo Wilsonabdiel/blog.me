@@ -6,7 +6,7 @@ $routes = [
     '/blog.me/' => 'controllers/index.php',
     '/blog.me/about'=> 'controllers/about.php',
     '/post' => 'controllers/post.php',
-    '/posts/create' => 'controllers/post-create.php',
+    '/post/delete' => 'controllers/delete.php',
 ];
 
 function routeToController($uri, $routes)
